@@ -1,6 +1,8 @@
 import React from 'react';
 
-import Comment, { a } from './Comment';
+import Comment, { a } from 'src/components/Comment';
+import * as MyModule from './Comment';
+console.log(MyModule);
 
 //名稱可自取，但通常使用props作為名稱
 

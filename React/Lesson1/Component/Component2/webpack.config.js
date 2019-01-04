@@ -1,3 +1,4 @@
+const path = require('path');
 module.exports = {
   entry: ['./src/index.js'],
   output: {
@@ -15,6 +16,9 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx']
+    extensions: ['*', '.js', '.jsx'],
+    alias: {
+      src: path.resolve(__dirname, 'src')
+    }
   }
 };
