@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple starter package for React and Babel support",
   "main": "index.js",
-  "repository": "",
+  "repository": "https://github.com/GomajiCindyChen/training",
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production --config webpack.config.js"
